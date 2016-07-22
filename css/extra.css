@@ -6,28 +6,24 @@
      font-family: biko;
      src: fonts/biko/Biko_Regular.otf;
    }
-   .panel-heading{
+   .gfnav{
      font-family: biko;
    }
 
 
-   .panel-heading h3:link,
+   .gfnav         h4:link,
                   a:link,
-                  h3:visited,
+                  h4:visited,
                   a:visited{
      text-decoration:none;
      color: black;
    }
-   .panel-heading h3:hover,
+   .gfnav         h4:hover,
                   a:hover,
-                  h3:active,
+                  h4:active,
                   a:active{
      text-decoration:none;
      color:#bd0430;
-   }
-
-   .panel-heading h3{
-     font-size: 28px;
    }
 
    .atongueBody{
@@ -129,22 +125,21 @@
    	padding-top: 10px;
    }
    .title {
-   	margin-left: 10%;
-   	margin-right: 20%;
+     margin-left: 20%;
    }
    .title h3{
      margin-top:0px;
      text-align:center;
    }
    .title img{
-   	display: block;
-   	margin-left: auto;
-   	margin-right: auto;
-   	/*max-width: 100%;*/
-   	width: 400px;
-   	max-width: 100%;
-   	min-width: 50%;
+    width: 200px;
+    min-width: 250px;
    	margin-bottom: 0px;
+   }
+   .whatwedo {
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
    }
 
    .halftone{
@@ -169,11 +164,10 @@
 
    .well {
    	margin-top: 19px;
-   	background-color: #7ba4b3;
-   	background: url("../img/bgTexture.png");
+   	background-color: rgba(255, 255, 255, 0.3);
    	background-position-y: -50px;
    	background-repeat: repeat;
-  	border: 6px solid #000;
+  	border: 0px solid #000;
   	opacity: 1;
   	border-radius: 15px 70px;
   	z-index: 100;
