@@ -9,8 +9,11 @@
    .gfnav{
      font-family: biko;
    }
-   h1{
+   h1, h2, h3{
      font-family: biko;
+   }
+   h4.contact{
+     font-weight:normal;
    }
 
 
@@ -270,7 +273,6 @@
 	.gf img {
 
 	}
-
 
 	.icons img {
 		max-width: 32px;
