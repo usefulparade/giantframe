@@ -6,6 +6,7 @@
      font-family: biko;
      src: fonts/biko/Biko_Regular.otf;
    }
+   
    .gfnav{
      font-family: biko;
    }
@@ -15,20 +16,27 @@
    h4.contact{
      font-weight:normal;
    }
+   p {
+    font-size: 18px;
+   }
+   li {
+    font-size: 18px;
+   }
 
 
    .gfnav         h4:link,
                   a:link,
                   h4:visited,
                   a:visited{
-     text-decoration:none;
+     text-decoration: none;
      color: black;
    }
    .gfnav         h4:hover,
                   a:hover,
                   h4:active,
                   a:active{
-     text-decoration:none;
+     text-decoration: none;
+     background-color: none;
      color:#bd0430;
    }
 
@@ -142,6 +150,7 @@
     min-width: 250px;
    	margin-bottom: 0px;
    }
+
    .whatwedo {
      display:block;
      margin-left:auto;
@@ -230,16 +239,20 @@
    	z-index: 100;
    }
 
-   .row a:link{
-     color: #346193;
+   .panel-collapse a:link{
+     font-weight: bold;
+     color: #000000;
    }
-   .row a:visited{
-     color: #346193;
+   .panel-collapse a:visited{
+     font-weight: bold;
+     color: #000000;
    }
-   .row a:hover{
+   .panel-collapse a:hover{
+     font-weight: bold;
      color: #bd0430;
    }
-   .row a:active{
+   .panel-collapse a:active{
+     font-weight: bold;
      color: #bd0430;
    }
 
