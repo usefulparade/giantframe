@@ -4,11 +4,62 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/p5.min.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/film.js"></script>
     <title>Giant Frame</title>
 
   </head>
 
   <body>
-   
+    <div id="bgvid">
+      <video playsinline autoplay muted loop>
+          <source src="assets/vid.mp4" type="video/mp4"/>
+      </video>
+    </div>
+    <div class="container">
+      <div class="textScroll">
+        <div class="singleScreen">
+          <div class="title">
+            <h1>Giant <br>Frame</h1>
+            <p>A discerning <br>music-for-pictures <br>collaborative</p>
+          </div>
+          
+        </div>
+
+        <div class="singleScreen">
+          <h2>Selected Work</h2>
+          <iframe src="https://player.vimeo.com/video/113343133?title=0&amp;byline=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""  width="640" height="360"  frameborder="0"></iframe>
+          <iframe src="https://player.vimeo.com/video/132779173?title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+          <iframe src="https://player.vimeo.com/video/238736858?byline=0&amp;portrait=0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="640" height="320" frameborder="0"></iframe>
+        </div>
+
+        <div class="singleScreen">
+          <h2>Experiments</h2>
+          <div class="left-aligned">
+            <p><a href="http://www.instagram.com/gifscores">gifscores</a> // a daily instagram music-for-gifs project</p>
+            <p><a href="https://www.youtube.com/watch?v=VtnEYHVRI0U&list=PLu5ESq9aBEyHcgZlsRF0ydVZp4LtMOSKq">there is some space below that</a> // scores for ISS spacewalks</p>
+            <p><a href="https://vimeo.com/157963977">anemic cinema</a> // an imagined score for a spinning Duchamp short</p>
+          </div>
+        </div>
+
+        <div class="singleScreen">
+          <h2>Contact</h2>
+          <div class="left-aligned">
+            <p>write // giantframe@gmail.com</p>
+            <p>tweet // @_luscho, @spenhar, @jesseqt
+          </div>
+        </div>
+
+        <div class="singleScreen">
+          <div class="theEnd">
+            <h1>THE END</h1>
+          </div>
+        </div>
+      
+      </div>
+    </div>
   </body>
 </html>

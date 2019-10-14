@@ -1,0 +1,150 @@
+:root {
+    /* main text */
+    --color1: #ffebeb;
+    /* link */
+    --color2: #30bbd3;
+    /* link active */
+    --color3: #a27e8e;
+    /* --color3: #2068b5; */
+    /* text */
+    --color4: #323c03;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+@font-face {
+    font-family: 'Archdale';
+    src: url('../fonts/Archdale-Regular.ttf');
+}
+
+body {
+    font-family: 'Archdale', serif;
+    font-size: 18px;
+    color: var(--color1);
+}
+
+h1 {
+    font-family: 'Archdale', serif;
+    font-size: 7em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Archdale', serif;
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+}
+
+a:link {
+    color: var(--color2);
+}
+
+a:visited {
+    color: var(--color2);
+}
+
+a:hover {
+    color: var(--color3);
+}
+
+a:active {
+    color: var(--color1);
+}
+
+iframe {
+    width: 540px;
+    max-height: 300px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+#bgvid {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    overflow: hidden;
+    background-color: rgb(17, 17, 17);
+    background-image: url('/assets/frame-one.jpg');
+    background-size: cover;
+    /* background-origin: center; */
+    background-position: 50% 50%;
+}
+
+#bgvid video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px
+    z-index: 1;
+    text-align: center;
+    filter: blur(1.3px);
+}
+
+.singleScreen {
+    min-height: 100vh;
+}
+
+.title {
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 20%;
+    text-align: right;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.textScroll {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.theEnd {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+}
+
+@media only screen and (max-width: 720px){
+    body {
+        font-size: 12px;
+    }
+    iframe {
+        width: 90%;
+        max-height: 200px;
+    }
+
+    .container {
+        filter: blur(1px);
+    }
+
+    .title {
+        right: 5%;
+    }
+}
