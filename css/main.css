@@ -103,14 +103,17 @@ iframe {
 }
 
 .singleScreen {
+    display: block;
+    position: relative;
     min-height: 100vh;
+    width: auto;
 }
 
 .title {
     display: block;
     position: absolute;
     top: 50px;
-    right: 20%;
+    right: 15%;
     text-align: right;
 }
 
@@ -125,10 +128,10 @@ iframe {
 }
 
 .theEnd {
-    display: block;
+    display: inline-block;
     position: absolute;
     bottom: 50px;
-    left: 50%;
+    right: 15%;
 }
 
 @media only screen and (max-width: 720px){
@@ -145,6 +148,10 @@ iframe {
     }
 
     .title {
+        right: 5%;
+    }
+
+    .theEnd {
         right: 5%;
     }
 }
