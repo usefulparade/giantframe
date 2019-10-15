@@ -108,7 +108,7 @@ iframe {
 
 .title {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 50px;
     right: 20%;
     text-align: right;
@@ -126,7 +126,7 @@ iframe {
 
 .theEnd {
     display: block;
-    position: fixed;
+    position: absolute;
     bottom: 50px;
     left: 50%;
 }
