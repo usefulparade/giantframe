@@ -35,6 +35,11 @@ h2 {
     margin-bottom: 10px;
     text-decoration: underline;
 }
+h3 {
+    font-family: 'Archdale', serif;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
 
 p {
     font-family: 'Libre Baskerville', serif;
@@ -117,6 +122,15 @@ iframe {
     text-align: right;
 }
 
+.goBack {
+    display: block;
+    position: relative;
+    width: 200px;
+    top: 50px;
+    left: 15%;
+    text-align: left;
+}
+
 .left-aligned {
     text-align: left;
 }
@@ -149,6 +163,9 @@ iframe {
 
     .title {
         right: 5%;
+    }
+    .goBack {
+        left: 5%;
     }
 
     .theEnd {
