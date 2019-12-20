@@ -114,6 +114,13 @@ iframe {
     width: auto;
 }
 
+.halfScreen {
+    display: block;
+    position: relative;
+    min-height: 50vh;
+    width: auto;
+}
+
 .title {
     display: block;
     position: absolute;
